@@ -1,4 +1,4 @@
-## Direct Link Generator
+# Direct Link Generator
 
 **Direct Link Generator** is A simple website to generate direct download links from Google Drive and OneDrive links.
 
