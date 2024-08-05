@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Generate direct download links easily with our Direct Link Generator.">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+  <title>Direct Link Generator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <img src="img/logo_name.png" alt="Direct Link Generator Logo">
+  </header>
+  <main>
+    <div class="search-bar">
+      <input type="text" id="link" placeholder="Enter your link..." onkeydown="handleKeyDown(event)">
+    </div>
+
+    <button id="searchButton" onclick="generateLink()">
+      Get link
+    </button>
+
+    <div id="result" class="result" style="display: none">
+      <p id="resultLink"></p>
+      <div id="notification">Text copied to clipboard!</div>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Duong Hoai Bao</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
