@@ -4,4 +4,4 @@
 
 **Link:** [https://direct-link-generator.vercel.app/](https://direct-link-generator.vercel.app/)
 
-![](./af.png)
+![](./screen.png)
