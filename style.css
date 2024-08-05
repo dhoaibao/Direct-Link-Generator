@@ -66,6 +66,7 @@ main {
   outline: none;
   padding: 8px 15px;
   font-size: 16px;
+  background-color: #fff !important;
 }
 
 button {
