@@ -45,7 +45,7 @@ function generateLink() {
 function showLink(directLink) {
     refresh();
     document.getElementById("resultLink").innerText = directLink;
-    document.getElementById("result").style.display = "block";
+    // document.getElementById("result").style.display = "block";
 }
 
 function refresh() {
