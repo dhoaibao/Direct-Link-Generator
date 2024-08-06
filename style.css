@@ -40,6 +40,7 @@ main {
 .text {
   color: #fff;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 /* Header and Logo Styles */
@@ -172,7 +173,7 @@ footer p {
 
 /* Responsive Styles */
 @media (max-width: 768px) {
-  .logo img {
+  .header img {
     height: 180px;
   }
 
@@ -182,7 +183,7 @@ footer p {
 }
 
 @media (max-width: 480px) {
-  .logo img {
+  .header img {
     height: 120px;
   }
 
@@ -190,8 +191,7 @@ footer p {
     max-width: 100%;
   }
 
-  .search-bar input[type="text"],
-  .search-bar button {
+  .search-bar input[type="text"] {
     font-size: 14px;
     padding: 6px 10px;
   }
